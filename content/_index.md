@@ -1,6 +1,6 @@
 +++
-keywords = ["article", "blog", "code", "coding", "comment", "commentary", "computation", "computer", "computers", "computing", "dev", "develop", "developer", "developing", "development", "eng", "engineer", "engineering", "faught", "hardware", "idea", "link", "media", "news", "opinion", "post", "pro", "profession", "professional", "program", "programmer", "programming", "projects", "social", "social media", "software", "software developer", "software developing", "software development", "software engineer", "software engineering", "software programmer", "software programmering", "website", "will", "will faught", "william", "william faught"]
-title = "Will Do"
+keywords = ["AWSary", "cloud journey", "AWS", "cloud professional", "content", "tools", "mobile app", "podcast", "insights", "tips", "resources", "AWS expertise", "Tiago Rodrigues"]
+title = "AWSary - Accelerate your cloud journey"
 [paige.list_page]
 disable_collections = true
 disable_pages = true
