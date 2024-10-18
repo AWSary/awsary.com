@@ -1,3 +1,97 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://AWSary.com/'
+enablerobotstxt = true
+paginate = 50
+titlecasestyle = "Go"
+
+[languages.en]
+languagecode = "en-us"
+languagedirection = "ltr"
+languagename = "English"
+weight = 10
+
+[languages.en.params.paige]
+copyright = "© AWSary"
+description = '<span style="display: inline-block">Accelerate your</span> <span style="display: inline-block">cloud journey.</span>'
+title = 'AWSary'
+
+[[module.imports]]
+path = "github.com/willfaught/paige"
+
+[[languages.en.menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 10
+
+[[languages.en.menu.main]]
+identifier = "Podcasts"
+name = "Podcasts"
+url = "/Podcasts/"
+weight = 20
+
+[[languages.en.menu.main]]
+identifier = "Mobile Apps"
+name = "Mobile Apps"
+url = "/mobile-apps/"
+weight = 30
+
+[[languages.en.menu.main]]
+identifier = "About us"
+name = "About us"
+url = "/mobile-apps/"
+weight = 40
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+noclasses = false
+
+[markup.tableofcontents]
+endlevel = 6
+ordered = true
+startlevel = 2
+
+[[module.imports]]
+path = "github.com/willfaught/paige"
+
+[outputs]
+home = ["atom", "html", "paige-search", "rss"]
+section = ["atom", "html", "rss"]
+taxonomy = ["atom", "html", "rss"]
+term = ["atom", "html", "rss"]
+
+[params.paige.list_page]
+disable_authors = true
+disable_date = true
+disable_keywords = true
+disable_reading_time = true
+disable_series = true
+disable_summary = true
+
+[params.paige.page]
+disable_authors = true
+disable_keywords = true
+disable_next = true
+disable_prev = true
+disable_reading_time = true
+disable_series = true
+disable_toc = true
+
+[params.paige.site]
+disable_breadcrumbs = true
+disable_credit = true
+
+[params.paige.feed]
+page_link = "✓"
+
+[[params.paige.feed.atom.authors]]
+name = "Tiago Rodrigues"
+
+[permalinks]
+articles = "/:year/:month/:day/:slug/"
+blog = "/:year/:month/:day/:slug/"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
