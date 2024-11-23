@@ -20,7 +20,9 @@ disable = true
 <div class="container-fluid">
     <div class="justify-content-center row">
         <div class="col col-auto col-lg-7 px-0">
-            <p class="lead mb-0 text-center">Put text here about the podcast</p>
+            <p class="lead mb-0 text-center">
+                <iframe height="450" width="100%" title="Media player" src="https://embed.podcasts.apple.com/us/podcast/having-aws-for-breakfast/id1781448518?itscg=30200&amp;itsct=podcast_box_player&amp;ls=1&amp;mttnsubad=1781448518&amp;theme=auto" id="embedPlayer" style="border:0;border-radius:12px;width:100%;height:450px;max-width:660px" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *; clipboard-write"></iframe>
+            </p>
         </div>
     </div>
 </div>
